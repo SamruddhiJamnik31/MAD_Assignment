@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="4"
+    android:padding="16dp"
+    android:useDefaultMargins="true">
+
+    <!-- Row 1 -->
+    <Button
+        android:id="@+id/button1"
+        android:text="Exp 1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:text="Exp 2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:text="Exp 3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <!-- Row 2 -->
+    <Button
+        android:id="@+id/button4"
+        android:text="Exp 4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:text="Exp 5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:text="Exp 6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <!-- Row 3 -->
+    <Button
+        android:id="@+id/button7"
+        android:text="Exp 7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:text="Exp 8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:text="Exp 9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <!-- Row 4 -->
+    <Button
+        android:id="@+id/button10"
+        android:text="Exp 10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:text="Exp 11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:text="Exp 12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+</GridLayout>
