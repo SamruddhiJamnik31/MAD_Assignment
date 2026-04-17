@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_country"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Spinner -->
+    <Spinner
+        android:id="@+id/spinnerCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_marginTop="20dp"/>
+
+    <!-- TextView to display result -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
