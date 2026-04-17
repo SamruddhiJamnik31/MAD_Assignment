@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_hobbies"
+        android:textSize="18sp"/>
+
+    <!-- CheckBoxes -->
+    <CheckBox
+        android:id="@+id/cbReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reading"/>
+
+    <CheckBox
+        android:id="@+id/cbTraveling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/traveling"/>
+
+    <CheckBox
+        android:id="@+id/cbGaming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gaming"/>
+
+    <CheckBox
+        android:id="@+id/cbCooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cooking"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Result -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
